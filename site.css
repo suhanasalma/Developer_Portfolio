@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
 html{
    font-family: 'Poppins', sans-serif;
+   
+}
+body{
+
+   margin: 0;
 }
 
 h2{
@@ -19,4 +24,19 @@ span{
    border-radius: 5px;
    color: white;
    font-weight: 700;
+}
+section{
+   display: flex;
+   padding: 40px;
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+   
+}
+.need_sector{
+    width: 50%;
+   
+}
+
+.need_sector img{
+   width: 70%;
 }
