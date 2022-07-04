@@ -25,6 +25,7 @@ body{
 
 section{
    display: flex;
+   padding: 0 100px ;
 }
 .flexible{
    width: 50%;
@@ -36,7 +37,7 @@ section{
 .first_back{
    background-image: url(images/top-banner.png);
    background-repeat: no-repeat;
-   padding: 0 100px ;
+   
 }
 h1, h2{
    font-size: 40px;
@@ -45,6 +46,20 @@ h1, h2{
    background-image: url(images/dream-bg.png);
    background-repeat: no-repeat;
    background-position: right;
-   padding: 0 100px ;
+   
 }
-
+.experience{
+   text-align: center;
+}
+.third_back{
+   background-image: url(images/exp-bg.png);
+   background-repeat: no-repeat;
+   background-position: leftt;
+}
+.shadow_bord{
+   border: 2px solid orange;
+   box-shadow: 5px 5px grey;
+   padding-left: 20px;
+   
+   
+}
