@@ -78,7 +78,8 @@ h1, h2{
 
 }
 
-footer p{
+footer {
    text-align: center;
    font-size: 20px;
+   Margin-top :200px;
 }
