@@ -1,42 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rubik+Moonrocks&family=Zen+Dots&display=swap');
+
 html{
    font-family: 'Poppins', sans-serif;
    
 }
+
 body{
-
    margin: 0;
+   
 }
 
-h2{
-
-   font-size: 30px;
-}
-span{
-
+.orange-color{
    color: orange;
 }
 
-.hire_me{
+.button{
+   font-weight: 700;
+   color:white;
    text-decoration: none;
    background: linear-gradient(45deg, lightsalmon, tomato);
-   padding: 10px 40px;
    border-radius: 5px;
-   color: white;
-   font-weight: 700;
-}
-section{
-   display: flex;
-   padding: 40px;
-   background-image: url(images/top-banner.png);
-   background-repeat: no-repeat;
-   
-}
-.need_sector{
-    width: 50%;
-   
+   padding: 10px 40px;
 }
 
-.need_sector img{
-   width: 70%;
+section{
+   display: flex;
 }
+.flexible{
+   width: 50%;
+
+}
+.flexible img{
+   width: 90%;
+}
+.first_back{
+   background-image: url(images/top-banner.png);
+   background-repeat: no-repeat;
+   padding: 0 100px ;
+}
+h1, h2{
+   font-size: 40px;
+}
+.second_back{
+   background-image: url(images/dream-bg.png);
+   background-repeat: no-repeat;
+   background-position: right;
+   padding: 0 100px ;
+}
+
